@@ -13,17 +13,27 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<!-- 自己寫的 CSS -->
-		<link rel="stylesheet" href="styles.css"/>
+		<link rel="js" href="cards.js"/>
 	</head>
 	<body>
-		<div>header</div>
-		<div>body</div>
+
+		<div>
+			<a class="navbar-brand">浩然大廳藝文展</a>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li class="active"><a ui-sref="root.year({year:NULL})" href="/">所有年度</a></li><li class="dropdown"><a class="dropdown-toggle ng-binding" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">2014<span class="caret"></span></a><ul class="dropdown-menu"><!-- ngRepeat: year in navCtrl.yearList --><!-- end ngRepeat: year in navCtrl.yearList --></ul></li></ul></div>
+		</div>
+		<div>body
+			<div class="row">
+		</div>
 		<div>footer</div>
 		
 		<!-- JavaScript 聯結放在最後以增加效能 -->
 		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="cards.js"></script>
+		<script src="main.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+		</script>
+
 	</body>
 </html>
